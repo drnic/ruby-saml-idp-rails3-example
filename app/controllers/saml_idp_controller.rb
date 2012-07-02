@@ -1,5 +1,5 @@
 class SamlIdpController < SamlIdp::IdpController
-  before_filter :find_account
+  # before_filter :find_account
 
   def idp_authenticate(email, password)
     # user = @account.users.where(:email => params[:email]).first
