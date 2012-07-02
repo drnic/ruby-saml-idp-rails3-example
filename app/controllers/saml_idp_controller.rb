@@ -1,3 +1,5 @@
+require "uuid"
+
 class SamlIdpController < SamlIdp::IdpController
   # before_filter :find_account
 
